@@ -2,6 +2,14 @@
     font-size: 18px;
     font-family: Helvetica;
     
+    a {
+ font-weight: bold;
+ color:maroon; 
+}
+
+a:hover, a:focus{
+    color:steelblue;
+}
 }
 
 img{
@@ -13,10 +21,9 @@ head{
     clear: left;
 }
 
-a {
- font-weight: bold;
 
-}
+
+
 
 h1{
     font-size: 64px;
@@ -29,7 +36,8 @@ h2{
 }
 
 aside{
-    a {
-        font-weight: bold;
+
+    h2{
+        color: maroon;
     }
 }
