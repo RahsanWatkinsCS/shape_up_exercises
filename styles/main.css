@@ -49,6 +49,9 @@ aside{
         color: maroon;
     }
 
+    a{
+        color:maroon;
+    }
     a:hover, a:focus{
         color:maroon;
     }
