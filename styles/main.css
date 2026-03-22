@@ -5,17 +5,17 @@
  
 }
 
-body{
+
    a {
  font-weight: bold;
  color:maroon; 
 
+
+}
+
 a:hover, a:focus{
     color:steelblue;
 }
-}
-}
-
 
 
 
