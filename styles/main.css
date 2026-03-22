@@ -4,6 +4,15 @@
     
 }
 
+img{
+    float: left;
+    margin-right:2em;
+}
+
+head{
+    clear: left;
+}
+
 a {
  font-weight: bold;
 
