@@ -48,11 +48,16 @@ aside{
         color: steelblue;
     }
 
-    a:hover, a:focus{
+    a:focus{
         color: maroon;
     }
 
     li{
         line-height: 1.5;
     }
+}
+
+footer{
+    text-align: center;
+    font-size:8px;
 }
