@@ -5,5 +5,17 @@
 }
 
 a {
- 
+ font-weight:bold;
+
+}
+
+h1{
+    font-size: 200;
+}
+
+header{
+    
+    font-style:italic;
+    color:steelblue;
+    
 }
