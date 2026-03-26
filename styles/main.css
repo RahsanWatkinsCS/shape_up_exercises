@@ -3,17 +3,19 @@
     border:0;
     box-sizing:border-box;
 
-    font-size: 18px;
-    font-family: Helvetica;
+   
  
 }
 
 
 body{
+     font-size: 18px;
+    font-family: Helvetica;
     width: 700px;
     border:solid;
     border-color:steelblue;
     text-align:center;
+    margin:auto;
     box-shadow: 3px, 3px, 4px, 4px, black;
     
 
