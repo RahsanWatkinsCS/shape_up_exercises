@@ -12,7 +12,7 @@ body{
      font-size: 18px;
     font-family: Helvetica;
     width: 800px;
-    border:solid;
+    border-style:solid;
     border-color:steelblue;
     text-align:left;
     margin:auto;
@@ -42,6 +42,7 @@ img{
 }
 
 head{
+    border-bottom: solid;
     background-color:bottom, white 100%, lightsteelblue 100%;
 }
 
@@ -64,13 +65,14 @@ aside{
     h2{
         color: maroon;
     }
-
     a{
         color:steelblue;
     }
     a:hover, a:focus{
         color:maroon;
     }
+
+    border-style: solid;
 
    
 
