@@ -42,7 +42,6 @@ img{
 }
 
 head{
-    border-bottom: solid;
     background-image:linear-gradient( bottom, white 100%, lightsteelblue 100%);
 }
 
@@ -72,10 +71,7 @@ aside{
         color:maroon;
     }
 
-    border-style: solid;
-
-   
-
+    
     li{
         line-height: 1.5px;
     }
