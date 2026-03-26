@@ -1,15 +1,27 @@
 *{
+    margin: 0;
+    border:0;
+    box-sizing:border-box;
+
     font-size: 18px;
     font-family: Helvetica;
-    
  
 }
 
 
+body{
+    width: 700px;
+    border:solid;
+    border-color:steelblue;
+    text-align:center;
+    box-shadow: 3px, 3px, 4px, 4px, black;
+    
+
+}
+
    a {
  font-weight: bold;
  color:maroon; 
-
 
 }
 
@@ -26,7 +38,9 @@ img{
 }
 
 head{
-    clear: left;
+
+    border-bottom:solid;
+    border-color:steelblue;
 }
 
 
@@ -66,4 +80,7 @@ aside{
 footer{
     text-align: center;
     font-size:12px;
+    color:white;
+    background-color:steelblue;
+
 }
