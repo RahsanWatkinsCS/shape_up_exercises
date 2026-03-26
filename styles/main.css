@@ -65,7 +65,9 @@ h2{
 }
 
 aside{
-
+border:solid;
+border-color: steelblue;
+border-radius: 20px;
     h2{
         color: maroon;
     }
