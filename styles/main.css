@@ -22,7 +22,10 @@ body{
     
 
 }
-
+p{
+    padding-bottom:2em;
+    
+}
    a {
  font-weight: bold;
  color:maroon; 
