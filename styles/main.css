@@ -71,11 +71,14 @@ border:solid;
 border-color: steelblue;
 border-radius: 20px;
 padding-left:2em;
-    h2{
+
+h2{
         color: maroon;
         padding-top:1.5em;
         padding-bottom:1em
     }
+    
+
     a{
         color:steelblue;
     }
