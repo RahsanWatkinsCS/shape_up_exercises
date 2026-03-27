@@ -44,7 +44,7 @@ img{
     margin-bottom:2em;
 }
 
-head{
+header{
     border-bottom:2px;
     border-bottom:steelblue;
     background-image:linear-gradient( bottom, white 100%, lightsteelblue 100%);
@@ -74,7 +74,7 @@ padding-left:2em;
 
 h2{
         color: maroon;
-        padding-top:1.5em;
+        padding-top:.5em;
         padding-bottom:1em
     }
     
