@@ -46,7 +46,6 @@ img{
 }
 
 header{
-    border-bottom:2px;
     border-bottom:steelblue;
     background-image:linear-gradient( bottom, white 100%, lightsteelblue 100%);
 }
