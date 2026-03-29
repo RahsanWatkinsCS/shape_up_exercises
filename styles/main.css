@@ -8,6 +8,7 @@
 }
 
 header{
+    border-style:solid;
     border-bottom:steelblue;
    background-image: linear-gradient(to bottom, white 100%, aliceblue 20%);
 }
