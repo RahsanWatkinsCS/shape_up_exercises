@@ -7,12 +7,19 @@
  
 }
 
+header{
+    border-bottom:steelblue;
+    background-color: aliceblue;
+}
+
+
+
 body{
+    border:solid;
+     border-color:steelblue;
      font-size: 18px;
     font-family: Helvetica;
     width: 800px;
-    border:solid;
-    border-color:steelblue;
     text-align:left;
     margin:auto;
     box-shadow: 3px, 3px, 4px, 4px, black;
@@ -29,7 +36,7 @@ p{
    a {
  font-weight: bold;
  color:maroon; 
- padding-bottom: 1.5em;
+ padding-bottom: 6em;
 
 }
 
@@ -45,10 +52,6 @@ img{
     margin-bottom:2em;
 }
 
-header{
-    border-bottom:steelblue;
-    background-image:linear-gradient( bottom, white 100%, lightsteelblue 100%);
-}
 
 
 
@@ -72,6 +75,7 @@ border-color: steelblue;
 border-radius: 20px;
 padding-left:1em;
 margin-bottom: 2em;
+background-image:linear-gradient( bottom, white 100%, lightsteelblue 100%);
 
 h2{
         color: maroon;
