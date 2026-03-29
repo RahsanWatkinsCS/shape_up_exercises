@@ -24,13 +24,12 @@ body{
 
 p{
     padding-bottom:2em;
-    padding-top: 1em;
 
 }
    a {
  font-weight: bold;
  color:maroon; 
- padding-bottom: 1em;
+ padding-bottom: .5em;
 
 }
 
@@ -46,21 +45,21 @@ img{
     margin-bottom:2em;
 }
 
-head{
-    border:solid;
+header{
     border-bottom:steelblue;
+    background-image:linear-gradient( bottom, white 100%, lightsteelblue 100%);
+}
+
+
+
+
+
 h1{
     font-size: 48px;
     font-style:italic;
     color:steelblue;
     padding-bottom:1.5;
-
 }
-
-}
-
-
-
 
 h2{
     font-size:32px;
@@ -71,10 +70,8 @@ aside{
 border:solid;
 border-color: steelblue;
 border-radius: 20px;
-background-image:linear-gradient( bottom, white 100%, lightsteelblue 100%);
 padding-left:1em;
 margin-bottom: 2em;
-
 
 h2{
         color: maroon;
