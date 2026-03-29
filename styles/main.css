@@ -24,6 +24,7 @@ body{
 
 p{
     padding-bottom:2em;
+    padding-top: 1em;
 
 }
    a {
@@ -45,7 +46,7 @@ img{
     margin-bottom:2em;
 }
 
-header{
+head{
     border-bottom:steelblue;
     background-image:linear-gradient( bottom, white 100%, lightsteelblue 100%);
 }
