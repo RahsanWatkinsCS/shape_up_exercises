@@ -7,9 +7,9 @@
  
 }
 
-head{
+header{
     border-bottom:steelblue;
-   text-align:right;
+   background-image: linear-gradient( bottom, aliceblue 100%, white 20%);
 }
 
 
