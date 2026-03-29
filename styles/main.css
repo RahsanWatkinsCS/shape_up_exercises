@@ -9,7 +9,7 @@
 
 header{
     border-bottom:steelblue;
-   background-image: linear-gradient( bottom, aliceblue 100%, white 20%);
+   background-image: linear-gradient(to bottom, aliceblue 100%, white 20%);
 }
 
 
@@ -22,7 +22,7 @@ body{
     width: 800px;
     text-align:left;
     margin:auto;
-    box-shadow: 3px, 3px, 4px, 4px, solid, black;
+    box-shadow:3px, 3px, 4px, black;
     padding-left:2em;
     padding-right:2em;
     
