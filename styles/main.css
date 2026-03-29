@@ -3,7 +3,7 @@
     border:0;
     box-sizing:border-box;
 
-   box-shadow: 3px, 3px, 4px, 4px, black;
+   
  
 }
 
@@ -11,12 +11,11 @@ body{
      font-size: 18px;
     font-family: Helvetica;
     width: 800px;
-    color:steelblue;
-    border:currentColor;
+    border:solid;
+    border-color:steelblue;
     text-align:left;
     margin:auto;
-    border-radius:0, 0, 0, 0;
-    
+    box-shadow: 3px, 3px, 4px, 4px, black;
     padding-left:2em;
     padding-right:2em;
     
@@ -25,13 +24,13 @@ body{
 
 p{
     padding-bottom:2em;
-  /*  padding-top: 1em;*/
+    padding-top: 1em;
 
 }
    a {
  font-weight: bold;
  color:maroon; 
- padding-bottom: 2em;
+ padding-bottom: 1em;
 
 }
 
@@ -48,9 +47,9 @@ img{
 }
 
 head{
+    border:solid;
     border-bottom:steelblue;
-    background-image:linear-gradient( bottom, white 100%, lightsteelblue 100%);
-}
+    
 
 
 
@@ -72,8 +71,12 @@ aside{
 border:solid;
 border-color: steelblue;
 border-radius: 20px;
+background-image:linear-gradient( bottom, white 100%, lightsteelblue 100%);
 padding-left:1em;
 margin-bottom: 2em;
+}
+
+
 
 h2{
         color: maroon;
@@ -103,6 +106,5 @@ footer{
     font-size:12px;
     color:white;
     background-color:steelblue;
-    margin:auto;
 
 }
