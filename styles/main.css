@@ -25,13 +25,13 @@ body{
 
 p{
     padding-bottom:2em;
-    padding-top: 1em;
+  /*  padding-top: 1em;*/
 
 }
    a {
  font-weight: bold;
  color:maroon; 
- padding-bottom: 1em;
+ padding-bottom: 2em;
 
 }
 
