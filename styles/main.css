@@ -22,7 +22,7 @@ body{
     width: 800px;
     text-align:left;
     margin:auto;
-    box-shadow: 3px, 3px, 4px, 4px, black;
+    box-shadow: 3px, 3px, 4px, 4px, solid, black;
     padding-left:2em;
     padding-right:2em;
     
