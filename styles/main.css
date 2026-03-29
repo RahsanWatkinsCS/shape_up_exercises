@@ -11,10 +11,11 @@ body{
      font-size: 18px;
     font-family: Helvetica;
     width: 800px;
-    border:solid;
-    border-color:steelblue;
+    color:steelblue;
+    border:currentColor;
     text-align:left;
     margin:auto;
+    border-radius:0, 0, 0, 0;
     box-shadow: 3px, 3px, 4px, 4px, black;
     padding-left:2em;
     padding-right:2em;
