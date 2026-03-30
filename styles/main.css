@@ -8,11 +8,19 @@
 }
 
 header{
+    width: 800px;
+    height: 82px;
+    margin-left:90px;
+    margin-right: 90px;
     text-align: center;
-    border-bottom-color: steelblue;
+   /*border-bottom-color: steelblue;
     border-bottom-style: solid;
     border-bottom-width: 1px;
     background: linear-gradient(to bottom, white , aliceblue );
+    */
+    
+    
+    border-bottom: 1px solid #494949;
 }
 
 
@@ -106,6 +114,7 @@ h2{
 
 footer{
     width:auto;
+    width:800px;
     padding-top: 1em;
     text-align: center;
     font-size:12px;
