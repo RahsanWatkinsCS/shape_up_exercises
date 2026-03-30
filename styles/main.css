@@ -8,9 +8,9 @@
 }
 
 header{
-    box-sizing:border-box;
-    width: auto;
-    height:auto;
+
+    width: 0;
+    height: 0;
 
    /*border-bottom-color: steelblue;
     border-bottom-style: solid;
@@ -29,6 +29,7 @@ body{
     margin: 0;
     padding:0; 
     box-sizing: border-box;
+   
     border:solid;
    
      border-color:steelblue;
