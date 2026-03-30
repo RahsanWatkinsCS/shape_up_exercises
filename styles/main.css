@@ -8,9 +8,10 @@
 }
 
 header{
-    border-style:solid;
     text-align: center;
-    border-bottom: 2px;
+    border-bottom-color: steelblue;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
    background: linear-gradient(to bottom, white , aliceblue );
 }
 
