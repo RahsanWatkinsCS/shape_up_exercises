@@ -9,7 +9,7 @@
 
 header{
     box-sizing:border-box;
-    width: 800px;
+    width: auto;
     height:auto;
 
    /*border-bottom-color: steelblue;
