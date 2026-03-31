@@ -8,10 +8,11 @@
 }
 
 header{
+   
+    width: 800px;
+    height:auto; 
     box-sizing:border-box;
-    width: auto;
-    height:auto;
-    margin: -35px 0 0 -48px;
+    /*margin: -35px 0 0 -48px;*/
      background-image: linear-gradient(to bottom, white , lightsteelblue );
     
     border-bottom: 3px solid steelblue;
