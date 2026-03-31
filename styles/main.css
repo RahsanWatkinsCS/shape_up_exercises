@@ -11,7 +11,7 @@ header{
     box-sizing:border-box;
     width: auto;
     height:auto;
-
+    margin: 760px 0 0 -760px;
    /*border-bottom-color: steelblue;
     border-bottom-style: solid;
     border-bottom-width: 1px;
@@ -26,10 +26,10 @@ header{
 
 body{
   
-    margin: 760px, 0, -760px;
+  
     padding:0; 
     box-sizing: border-box;
-   
+   margin:auto;
     border:solid;
    
      border-color:steelblue;
