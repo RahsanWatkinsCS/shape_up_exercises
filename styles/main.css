@@ -9,10 +9,11 @@
 
 header{
    
-    width: 800px;
+  width: 794px;
+  margin-left: -35.5px;
     height:auto; 
     box-sizing:border-box;
-    /*margin: -35px 0 0 -48px;*/
+    
      background-image: linear-gradient(to bottom, white , lightsteelblue );
     
     border-bottom: 3px solid steelblue;
@@ -113,10 +114,9 @@ h2{
 }
 
 footer{
-    width: 100%;
+    width: 794px;
+    margin-left: -35.5px;
     padding-top: 2em;
-    margin-left: -35px;
-    margin-right: -48px;
     text-align: center;
     font-size:12px;
     color:white;
