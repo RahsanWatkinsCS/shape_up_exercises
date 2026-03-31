@@ -8,16 +8,14 @@
 }
 
 header{
-
-    width: 0;
-    height: auto;
-    background: linear-gradient(to bottom, white , aliceblue );
-    border-bottom-width: 3px;
+    box-sizing:border-box;
+    width: auto;
+    height:auto;
 
    /*border-bottom-color: steelblue;
     border-bottom-style: solid;
-    
-   
+    border-bottom-width: 1px;
+    background: linear-gradient(to bottom, white , aliceblue );
     */
     
     
