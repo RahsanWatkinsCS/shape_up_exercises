@@ -7,6 +7,12 @@
  
 }
 
+main{
+    display:flex;
+ 
+    
+}
+
 header{
    
     width: 100%;
@@ -23,19 +29,21 @@ header{
 body{
   
      border-color:steelblue;
-     font-size: 18px;
     font-family: Helvetica;
     width: 100%;
     text-align:left;
-
+    line-height:1.5;
+    font-size: calc(50% + 1vw);
+   
     p, h1, h2, a, li{
     padding-left:1.5em;
     padding-right:1.5em;
     }
     
     section{
-        float:left;
-        width:60%;
+    
+       flex-basis: 65%;
+       min-height:10em;
     }
     
 
@@ -62,6 +70,7 @@ img{
     float: left;
     margin-right:2em;
     margin-bottom:2em;
+    width: clamp(100px, 100% 120px);
 }
 
 
@@ -83,13 +92,13 @@ h2{
 }
 
 aside{
+height:100%; 
 border:solid;
 border-color: steelblue;
 border-radius: 20px;
 padding-left:1em;
 margin-bottom: 2em;
-width: 40%;
-float: right;
+flex-basis:35%;
 
 
 h2{
@@ -107,10 +116,12 @@ h2{
         color:maroon;
     }
 
-    
+
+
+   
     li{
-        line-height: 1.5px;
         padding-bottom:.5em;
+        text-indent: -1.5em;
     }
 }
 
