@@ -52,7 +52,9 @@ body{
     }
     
     section{
-    
+      h2{
+        padding-top:1em;
+      }
        flex-basis: 50%;
        min-height:10em;
     }
@@ -110,7 +112,7 @@ margin-right:5px;
 
 h2{
         color: maroon;
-        padding-top:.5em;
+      
         padding-bottom:1em;
         padding-left:.5em;
     }
