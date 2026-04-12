@@ -105,6 +105,8 @@ border-radius: 20px;
 padding-left:1em;
 margin-bottom: 2em;
 flex-basis:25%;
+margin-left:5px;
+margin-right:5px;
 
 h2{
         color: maroon;
@@ -126,4 +128,12 @@ footer{
     background-color:steelblue;
     clear:both;
 
+}
+
+#fingle{
+  
+    h3,p{ 
+        padding-left: 2px;
+  
+    }
 }
