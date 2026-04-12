@@ -24,7 +24,18 @@ header{
     border-bottom: 3px solid steelblue;
 }
 
-
+#gurt{
+    a{
+        color:steelblue;
+    }
+    a:hover, a:focus{
+        color:maroon;
+    }
+    li{
+        padding-bottom:.5em;
+        text-indent: -1.5em;
+    }
+}
 
 body{
   
@@ -42,7 +53,7 @@ body{
     
     section{
     
-       flex-basis: 65%;
+       flex-basis: 50%;
        min-height:10em;
     }
     
@@ -73,11 +84,6 @@ img{
     width: clamp(100px, 100% 120px);
 }
 
-
-
-
-
-
 h1{
     font-size: 48px;
     font-style:italic;
@@ -98,8 +104,7 @@ border-color: steelblue;
 border-radius: 20px;
 padding-left:1em;
 margin-bottom: 2em;
-flex-basis:35%;
-
+flex-basis:25%;
 
 h2{
         color: maroon;
@@ -107,23 +112,10 @@ h2{
         padding-bottom:1em;
         padding-left:.5em;
     }
-    
 
-    a{
-        color:steelblue;
-    }
-    a:hover, a:focus{
-        color:maroon;
-    }
-
-
-
-   
-    li{
-        padding-bottom:.5em;
-        text-indent: -1.5em;
-    }
 }
+
+
 
 footer{
     width: auto;
