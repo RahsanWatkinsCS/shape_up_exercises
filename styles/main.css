@@ -26,35 +26,48 @@ header{
 nav{
     background-color: steelblue;
     color:white;
-    margin-bottom: 6px;
     position:sticky;
     top:0;
-    
+    margin:0;
 
+.menu{
+    position:relative; 
+    padding-top: 15px;
+    padding-bottom: 15px;
+    a:hover, a:focus {
+     color:white;
+
+      
+        
+        text-decoration: none;
+    } 
+    & a.current {
+    padding: 5px;
+    border: 2px solid;
+    border-radius: 10px;
+    text-decoration:none;
+    }
+ }
+    
     ul{
-        a{
+        justify-content: space-between;
+        & a{
             color:white;
             text-decoration:none;
+           
+            list-style-type: none;
         }
         flex-wrap: wrap;
-        list-style-type: none;
         display: flex;
-        justify-content: space-evenly;
-        li{
-            
-            small{
-                padding-left: -3em;
-            }
-            margin:left;
-        }
     }
-}
-
+    li{
+        list-style-type: none;
+    }
 
 .menu li:has(.submenu){
     position:relative;
     &:hover > .submenu{
-        display:block;
+        display: block;
     }
 }
 
@@ -62,8 +75,16 @@ nav{
     position:absolute;
     left: 0;
     display:none;
+    margin: 0;
+    padding: 0;
+    text-indent: -1.5em;
+    flex-wrap:wrap;
     background-color:steelblue;
     color: white;
+    a:hover, a:focus{
+        text-decoration: underline;
+    }
+}
 }
 
 body{
@@ -81,7 +102,7 @@ body{
     }
     
     section{
-    
+       
        flex-basis: 65%;
        min-height:10em;
     }
@@ -139,6 +160,7 @@ border-radius: 20px;
 padding-left:1em;
 margin-bottom: 2em;
 flex-basis:35%;
+margin-top: .5em;
 
 
 h2{
