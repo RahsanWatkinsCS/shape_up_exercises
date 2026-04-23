@@ -96,7 +96,7 @@ body{
     line-height:1.5;
     font-size: calc(50% + 1vw);
    
-    p, h1, h2, a, li{
+    p, h1, h2, h3, a, li{
     padding-left:1.5em;
     padding-right:1.5em;
     }
@@ -157,22 +157,23 @@ height:100%;
 border:solid;
 border-color: steelblue;
 border-radius: 20px;
-padding-left:1em;
 margin-bottom: 2em;
 flex-basis:35%;
 margin-top: .5em;
+margin-right: 20px;
 
 
 h2{
         color: maroon;
-        padding-top:.5em;
-        padding-bottom:1em;
+        padding-top:0em;
         padding-left:.5em;
+        padding-bottom:5px;
     }
     
 
     a{
         color:steelblue;
+        
     }
     a:hover, a:focus{
         color:maroon;
@@ -180,10 +181,14 @@ h2{
 
 
 
-   
+   ul{
+    margin-bottom:30px;
+   }
     li{
-        padding-bottom:.5em;
+        margin-bottom:-20px;
         text-indent: -1.5em;
+        padding-left:0;
+        
     }
 }
 
