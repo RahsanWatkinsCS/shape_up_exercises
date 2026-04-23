@@ -18,13 +18,53 @@ header{
     width: 100%;
     height:auto; 
     box-sizing:border-box;
-    margin-bottom:6px;
     background-image: linear-gradient(to bottom, white , lightsteelblue );
     
     border-bottom: 3px solid steelblue;
 }
 
+nav{
+    background-color: steelblue;
+    color:white;
+    margin-bottom: 6px;
+    position:sticky;
+    top:0;
+    
 
+    ul{
+        a{
+            color:white;
+            text-decoration:none;
+        }
+        flex-wrap: wrap;
+        list-style-type: none;
+        display: flex;
+        justify-content: space-evenly;
+        li{
+            
+            small{
+                padding-left: -3em;
+            }
+            margin:left;
+        }
+    }
+}
+
+
+.menu li:has(.submenu){
+    position:relative;
+    &:hover > .submenu{
+        display:block;
+    }
+}
+
+.submenu{
+    position:absolute;
+    left: 0;
+    display:none;
+    background-color:steelblue;
+    color: white;
+}
 
 body{
   
