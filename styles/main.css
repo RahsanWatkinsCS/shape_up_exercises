@@ -42,7 +42,7 @@ nav{
         text-decoration: none;
     } 
     & a.current {
-    padding: 5px;
+    padding: 5px 17px 5px 17px;
     border: 2px solid;
     border-radius: 10px;
     text-decoration:none;
