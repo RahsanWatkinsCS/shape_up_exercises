@@ -9,6 +9,7 @@
 
 main{
     display:flex;
+    flex-direction:column;
  
     
 }
@@ -29,23 +30,47 @@ nav{
     position:sticky;
     top:0;
     margin:0;
+ .menu-btn{
+       display:block;
+       color:white;
+       padding: 1em;
+    }
+   .menu-btn::after{ 
+        content:"\2630";
+    }
+
+    #checkbox-toggle{
+        display:none;
+    }
+    #checkbox-toggle:checked ~ .menu{
+        display:block;
+        position:absolute;
+        padding:0;
+        background-color: steelblue;
+
+    }
+
+    #checkbox-toggle:checked ~ .menu-btn::after{
+        content: "\2716";
+    }
 
 .menu{
     position:relative; 
     padding-top: 15px;
     padding-bottom: 15px;
+    display:none;
+
     a:hover, a:focus {
      color:white;
 
-      
-        
         text-decoration: none;
     } 
     & a.current {
-    padding: 5px 17px 5px 17px;
+    padding: 3px 80px 3px 17px;
     border: 2px solid;
     border-radius: 10px;
     text-decoration:none;
+    margin-left:2px;
     }
  }
     
@@ -63,22 +88,29 @@ nav{
     li{
         list-style-type: none;
     }
-
+ 
 .menu li:has(.submenu){
-    position:relative;
+    position:relative; 
+    
+    & small::after {
+            content: "\25b6";
+        }
     &:hover > .submenu{
         display: block;
+        flex-wrap:flex;
     }
 }
 
 .submenu{
     position:absolute;
-    left: 0;
+    left:100%;
+    width:max-content;
+    top:0;
     display:none;
     margin: 0;
     padding: 0;
     text-indent: -1.5em;
-    flex-wrap:wrap;
+    flex-wrap:flex;
     background-color:steelblue;
     color: white;
     a:hover, a:focus{
@@ -153,6 +185,7 @@ h2{
 }
 
 aside{
+order:2;
 height:100%; 
 border:solid;
 border-color: steelblue;
@@ -161,6 +194,7 @@ margin-bottom: 2em;
 flex-basis:35%;
 margin-top: .5em;
 margin-right: 20px;
+margin-left: 20px;
 
 
 h2{
@@ -202,3 +236,50 @@ footer{
     clear:both;
 
 }
+
+@media only screen and (min-width: 700px){
+   main{
+    display:flex;
+    flex-direction:row;
+   }
+
+   body{
+   
+
+    
+    nav{
+        .menu-btn{
+       display:none ; 
+       color:white;
+       padding: 1em;
+    }
+        .menu{
+        display:flex; 
+        .current{
+        margin:0;
+        padding: 3px 17px 3px 17px ;
+    }
+    }
+       
+    .menu li:has(.submenu){
+    position:relative; 
+    
+    & small::after {
+            content: "\25bc";
+        }
+    }
+    .submenu{
+        position:absolute;
+        left:0;
+        top: 100%;
+    }
+    }
+   
+
+   
+}
+  
+}
+    
+   
+
