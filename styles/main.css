@@ -119,6 +119,8 @@ nav{
 }
 }
 
+
+
 body{
   
      border-color:steelblue;
@@ -234,6 +236,16 @@ footer{
     color:white;
     background-color:steelblue;
     clear:both;
+
+}
+
+.arbitrary{
+    h3{
+        color:maroon;
+    }
+    a{
+        padding:0;
+    }
 
 }
 
