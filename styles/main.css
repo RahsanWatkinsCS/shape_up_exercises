@@ -22,6 +22,10 @@ header{
     background-image: linear-gradient(to bottom, white , lightsteelblue );
     
     border-bottom: 3px solid steelblue;
+    & h1{
+        font-family:American Captain;
+        padding: 3px;
+    }
 }
 
 nav{
@@ -120,6 +124,37 @@ nav{
 }
 
 
+	article {
+	
+	
+	margin-bottom: .5em;
+	& img {
+		
+        
+		width: min(100%, 240px);
+	}
+	figure{
+        margin-right: .5em;
+        float:left;
+		width:50%;
+        padding:20px;
+       
+		& img{
+			float:left;
+            width:100%;
+         
+		}
+		& figcaption{
+		font-weight:bold;
+        float:left;
+       
+		}
+        
+        border-bottom: 3px solid;
+        border-color: steelblue;
+	}
+}
+
 
 body{
   
@@ -139,6 +174,12 @@ body{
        
        flex-basis: 65%;
        min-height:10em;
+       li{
+      
+        padding-left:10px;
+        margin-left:10px;
+        
+    }
     }
     
 
@@ -186,6 +227,8 @@ h2{
     
 }
 
+
+ 
 aside{
 order:2;
 height:100%; 
@@ -197,6 +240,15 @@ flex-basis:35%;
 margin-top: .5em;
 margin-right: 20px;
 margin-left: 20px;
+
+
+    & img{
+        height:1.5em;
+        width:auto;
+        margin-right:.5em;
+        
+    }
+
 
 
 h2{
@@ -219,13 +271,23 @@ h2{
 
    ul{
     margin-bottom:30px;
+    list-style-position:inside;
    }
-    li{
-        margin-bottom:-20px;
-        text-indent: -1.5em;
+
+   li{
+        margin-bottom:-110px;
+        margin-left:-3em;
         padding-left:0;
+        padding-bottom:1em;
+        list-style-type: none;
+        display:flex;
+        & img{
+            vertical-align:text-bottom;
+            padding-right:1.5em;
+        }
         
     }
+    
 }
 
 footer{
@@ -243,6 +305,7 @@ footer{
     h3{
         color:maroon;
     }
+    
     a{
         padding:0;
     }
