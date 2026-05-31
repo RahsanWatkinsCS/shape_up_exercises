@@ -1,15 +1,300 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<link rel = "stylesheet" href = "../styles/calories.css">
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel = "shortcut icon" href = "../images/favicon.ico">
 	<title>Shape Up! | Calorie Counter</title>
 </head>
-
 <body>
-	<main>
-	    <h1>Calorie Counter</h1>
-		<h2>Under Construction</h2>	      
-    </main>
+    <header>
+        <img src ="../images/shape_up_logo.png" alt = "Image of Shape Up logo">
+        <h1>
+            Shape Up!
+        </h2>
+        <h2>
+            Find the best fit for you
+        </h2> 
+    </header>
+    <nav class = "navbar">
+        <input type = "checkbox" id = "checkbox-toggle"/>
+        <label for = "checkbox-toggle" class = "menu-btn"> </label>
+        <ul class = "menu">
+            <li >
+                <a href = "#../ch08/index.html">Home</a>
+            </li>
+            <li>
+                <a href = "../strength/strength.html">
+                Strength Training</a>
+            </li>
+            <li>
+                <a href = "../cardio/cardio.html">  
+                Cardio Exercises</a>
+            </li>
+            <li>
+                <a href = "../stress/stress.html">
+                Stress Relief<small> </small></a>
+                <ul class = "submenu">
+                    <li>
+                        <a href="../stress/stress.html">
+                         What is Stress?</a>
+                    <li>
+                        <a href = "../stress/tips.html">
+                        5 Helpful Tips</a>
+                    </li>
+                    <li>
+                        <a href = "../stress/meditate.html">
+                        Meditation</a>
+                    </li>
+                    <li>
+                        <a href = "../stress/vipassana.html">
+                        Vipassana</a>
+                    </li>
+    
+                    </li>
+                </ul>
+            </li>
+            <li>
+                 <a class = "current" href = "../diet/diet.html">
+                Healthy Diets <small> </small></a>
+                <ul class = "submenu">
+                    <li>
+                        <a href = "../diet/diet.html">
+                    Why a Healthy Diet?</a>
+                    </li>
+                    <li>
+                        <a href = "../diet/meals.html">
+                         Plan Your Meals</a>
+                    </li>
+                    <li>
+                        <a class = "current" href = "../diet/calories.html">
+                      Count Your Calories</a>
+                    </li>
+                    <li>
+                        <a href = "../diet/bmi.html">
+                        Calculate Your BMI</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+
+    </nav>
+<section>
+    
+    
+    <figure>
+        <h2>Calorie Counter</h2>
+<table>
+    <thead>
+        <tr>
+        <th>Category</th>
+        <th colspan = "2">Food</th>
+        <th>Serving size</th>
+        <th>Calories</th>
+    </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td class = "left" rowspan = "4">Beef</td>
+            </tr>
+            
+            <tr><td colspan="2">Frankfurter, Beef</td>
+            <td>1 each</td>
+            <td>184</td>
+        </tr>
+        <tr>
+            <td colspan="2">Ground Beef</td>
+            <td>4 oz</td>
+            <td>264</td>
+        </tr>
+        
+        <tr>
+            <td colspan="2">T-Bone Steak</td>
+            <td>8 ounces</td>
+            <td>402</td>
+        </tr>
+
+        <tr>
+        <td class = "left" rowspan="4">Bread</td>
+        </tr>
+        <tr>		
+            <td colspan="2">Bagel, plain</td>
+            <td>1 bagel</td>
+            <td>360</td>
+        </tr>
+        <tr>
+            <td colspan="2">Bread, sliced</td>
+            <td>1 slice</td>
+            <td>60 to 80</td>
+        </tr>
+        <tr>
+            <td colspan="2">English Muffin</td>
+            <td>1</td>
+            <td>135</td>
+        </tr>
+
+        <tr>
+           <td class = "left" rowspan="4">Cereal</td>
+        </tr>
+        <tr>
+            <td colspan="2">Cheerios</td>
+            <td>1 cup	</td>
+            <td>110</td>	
+        </tr>
+        <tr>
+            <td colspan="2">Corn Flakes</td>
+            <td>1 cup</td>
+            <td>100</td>
+        </tr>
+        <tr>
+            <td colspan="2">Oatmeal, quick</td>
+            <td>1 cup cooked</td>
+            <td>145</td>
+        </tr>
+
+        <tr>
+            <td class = "left" rowspan="5">Cheese </td>
+        </tr>
+        <tr>		
+            <td colspan="2">American</td>
+            <td>1 ounce</td>
+            <td>106</td>
+        </tr>
+        <tr>
+            <td colspan="2">Swiss</td>
+            <td>1 ounce</td>
+            <td>100</td>
+        </tr>
+        <tr>
+            <td colspan="2">Cheddar</td>
+            <td>1 ounce</td>
+            <td>114</td>
+        </tr>
+        <tr>
+            <td colspan="2">Cottage Cheese, regular</td>
+            <td>1/2 cup</td>
+            <td>117</td>
+        </tr>
+    
+        <tr>
+            <td class = "left" rowspan="3">Fruit </td>
+        </tr>
+        <tr>
+            <td colspan="2">Apple</td>
+            <td>1 medium</td>
+            <td>80</td>
+        </tr>
+        <tr>
+            <td colspan="2">Banana</td>
+            <td>1</td>
+            <td>105</td>
+        </tr>
+
+        <tr>
+            <td class = "left" rowspan="4"> Vegetables</td>
+        </tr>
+        <tr>
+            <td colspan="2">Corn, fresh</td>
+            <td>1 medium ear</td>
+            <td>88</td>
+        </tr>
+        <tr>
+            <td colspan="2">Carrot, raw</td>
+            <td>1 medium</td>
+            <td>25</td>
+        </tr>
+        <tr>
+            <td colspan="2">Celery</td>
+            <td>1 large stalk</td>
+            <td>9</td>
+        </tr>
+        
+        <tr>
+            <td class = "left" rowspan="8">Miscellaneous</td>
+        </tr>
+        <tr>
+            <td colspan="2">Milk, whole</td>
+            <td>1 cup</td>
+            <td>157</td>
+        </tr>
+        <tr>
+            <td colspan="2">Eggs</td>
+            <td>1</td>
+            <td>70</td>
+        </tr>
+        <tr>
+            <td colspan="2">Peanut butter</td>
+            <td>2 tablespoons</td>
+            <td>188</td>
+        </tr>
+        <tr>
+            <td colspan="2">Pasta</td>
+            <td>1/2 cup dry</td>
+            <td>200</td>
+        </tr>
+        <tr>
+            <td colspan="2">Rice</td>
+            <td>1 cup cooked</td>
+            <td>204</td>
+        </tr>
+        <tr>
+            <td colspan="2">Canned tuna, in water</td>
+            <td>2 ounces</td>
+            <td>70</td>
+        </tr>
+        <tr>
+           <td colspan="2"> Baked potato</td>
+           <td>1 medium</td>
+           <td>130</td>
+        </tr>
+    </tbody>
+	
+</table>
+</figure>	
+		
+</section>
+<aside>
+    <h2>
+Additional resources
+    </h2>
+
+    <ul>
+        <address>
+<li><a href = "https://www.cdc.gov/physical-activity-basics/benefits/index.html" >
+	<img src = "../images/run-icon.png" >Physical activity and health</a></li>
+
+
+
+<li><a href = "https://www.heart.org/en/healthy-living/fitness/fitness-basics/flexibility-exercise-stretching" >
+	<img src = "../images/stretch-icon.png" >Stretching exercises</a></li>
+
+
+<li><a href = "https://www.heart.org/en/healthy-living/fitness/fitness-basics/strength-and-resistance-training-exercise">
+	<img src = "../images/strength-icon.png" >Strength training</a></li>
+
+
+<li><a href = "https://www.health.harvard.edu/exercise-and-fitness/interval-training-for-a-stronger-heart">
+	<img src = "../images/cardio-icon.png" >Cardiovascular training</a></li>
+
+<li><a href = "https://www.self.com/gallery/power-yoga-workout">
+<img src = "../images/yoga-icon.png" >Yoga workout</a></li>
+
+
+</address>
+    </ul>
+</aside>
+
+
+	
+
+
+</main>
+  <footer>
+&#169 Shape Up!
+    </footer>
+
 </body>
+
 </html>
