@@ -1,15 +1,173 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href = "../styles/main.css">
+    <meta charset="UTF8">
+    <meta name ="viewport" content ="width = device-width, initial-scale=1.0">
+    <link rel = "shortcut icon" href = "images/favicon.ico">
 	<title>Shape Up! | Meal Plan</title>
 </head>
 
+
+
 <body>
+	 <header>
+        <img src ="../images/shape_up_logo.png" alt = "Image of Shape Up logo">
+        <h1>
+            Shape Up!
+        </h2>
+        <h2>
+            Find the best fit for you
+        </h2> 
+    </header>
+    <nav class = "navbar">
+        <input type = "checkbox" id = "checkbox-toggle"/>
+        <label for = "checkbox-toggle" class = "menu-btn"> </label>
+        <ul class = "menu">
+            <li >
+                <a href = "../mainShapeUp/index.html">Home</a>
+            </li>
+            <li>
+                <a href = "../strength/strength.html">
+                Strength Training</a>
+            </li>
+            <li>
+                <a href = "../cardio/cardio.html">  
+                Cardio Exercises</a>
+            </li>
+            <li>
+                <a href = "../stress/stress.html">
+                Stress Relief<small> </small></a>
+                <ul class = "submenu">
+                    <li>
+                        <a href="../stress/stress.html">
+                         What is Stress?</a>
+                    <li>
+                        <a href = "../stress/tips.html">
+                        5 Helpful Tips</a>
+                    </li>
+                    <li>
+                        <a href = "../stress/meditate.html">
+                        Meditation</a>
+                    </li>
+                    <li>
+                        <a href = "../stress/vipassana.html">
+                        Vipassana</a>
+                    </li>
+    
+                    </li>
+                </ul>
+            </li>
+            <li>
+                 <a href   = "../diet/diet.html">
+                Healthy Diets <small> </small></a>
+                <ul class = "submenu">
+                    <li>
+                        <a href = "../diet/diet.html">
+                    Why a Healthy Diet?</a>
+                    </li>
+                    <li>
+                        <a href = "../diet/meals.html" class = "current">
+                         Plan Your Meals</a>
+                    </li>
+                    <li>
+                        <a href = "../diet/calories.html">
+                      Count Your Calories</a>
+                    </li>
+                    <li>
+                        <a href = "../diet/bmi.html">
+                        Calculate Your BMI</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+
+    </nav>
 	<main>
-	    <h1>Meal Plan</h1>
-		<h2>Under Construction</h2>	    
-	</main>
+	    <section>
+			<h2>Meal plan order form</h2>
+			<p>Fill out the form as completely as possible and we will email you a weekly meal plan, customized
+				for you--your lifestyle, your goals, and your personal needs.</p>
+				<p>
+					Asterisks (*) indicate required entries.
+				</p>
+				<fieldset id = "userInfo">
+					<legend>Tell us about yourself</legend>
+					<label for = "name">Full name</label>
+					<input type = "text" id = "name" name = "name" autofocus required>
+					
+					<label for = "email"> Email </label>
+					<input type = "email" id = "email" name = "email" required>
+
+					<label for = "gender"> Gender</label>
+					<select id = "gender" name = "gender">
+						
+					</select>
+
+					<label for = "height">Height</label>
+					<input type = "text" id = "height" name = "height" required
+					textarea id = "height" placeholder="Example: 5ft 6in"></textarea>
+
+					<label for = "weight">Weight</label>
+					<input type = "text" id = weight name = weight required
+					textarea id = "height" placeholder="Example: 145lbs"></textarea>
+
+					<label for = "age">Select Your Age</label>
+					<select id = "age" name = "age">
+					<option value " "> </option>
+					<option value = "18-24">18-24</option>
+					<option value = "25-30">25-30</option>
+					<option value = "30-40">30-40</option>
+					<option value = "40-64"> 40-64</option>
+					<option value = "65+"> 65+</option>
+					</select>
+				</fieldset>
+
+				<fieldset id = "userLifestyle">
+					<legend>lifestyle and goals</legend>
+					<label for = "lifestyle">What currently matches your lifestyle</label>
+
+				</fieldset>
+		</section>
+			  
+
+	<aside>
+    <h2>
+Additional resources
+    </h2>
+
+    <ul>
+        <address>
+<li><a href = "https://www.cdc.gov/physical-activity-basics/benefits/index.html" >
+	<img src = "../images/run-icon.png" >Physical activity and health</a></li>
+
+
+
+<li><a href = "https://www.heart.org/en/healthy-living/fitness/fitness-basics/flexibility-exercise-stretching" >
+	<img src = "../images/stretch-icon.png" >Stretching exercises</a></li>
+
+
+<li><a href = "https://www.heart.org/en/healthy-living/fitness/fitness-basics/strength-and-resistance-training-exercise">
+	<img src = "../images/strength-icon.png" >Strength training</a></li>
+
+
+<li><a href = "https://www.health.harvard.edu/exercise-and-fitness/interval-training-for-a-stronger-heart">
+	<img src = "../images/cardio-icon.png" >Cardiovascular training</a></li>
+
+<li><a href = "https://www.self.com/gallery/power-yoga-workout">
+<img src = "../images/yoga-icon.png" >Yoga workout</a></li>
+
+
+</address>
+    </ul>
+</aside>
+</main>
+
+
+
+    <footer>
+&#169 Shape Up!
+    </footer>
 </body>
+
 </html>

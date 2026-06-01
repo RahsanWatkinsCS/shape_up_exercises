@@ -312,6 +312,35 @@ footer{
 
 }
 
+
+    legend{
+        font-weight: bold;
+        color:maroon;
+        font-size:1.3em;
+    }
+    fieldset{
+        padding:.5em 1em;
+        margin-bottom: .5em;
+        border:solid;
+        border-style:solid;
+        border-color:lightgray;
+        border-radius: 5px;
+    
+
+    }
+   label{
+    display:block;
+   }
+   input {
+    width: 80%;
+    outline:auto;
+   }
+   select{
+    width: 80%;
+    outline:auto;
+   }
+
+
 @media only screen and (min-width: 700px){
    main{
     display:flex;
