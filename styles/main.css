@@ -367,14 +367,16 @@ footer{
 .reset{
     background-color: maroon;
 }
-input
+
 button{
+    font-size:inherit;
     border-radius: 5px;
     color:white;
     font-weight: bold;
 }
    button:hover{
     color:black;
+    background-color: lightgray;
    }
 
 
