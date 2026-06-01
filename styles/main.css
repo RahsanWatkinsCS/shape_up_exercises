@@ -325,19 +325,56 @@ footer{
         border-style:solid;
         border-color:lightgray;
         border-radius: 5px;
-    
+        margin-left: 2em;
 
     }
    label{
-    display:block;
+   display:block;
    }
    input {
-    width: 80%;
+   outline:auto;
+   width:80%
+   }
+   .selectBlocks{
+   
+    & label{
+        display:revert;
+    }
+   }
+
+   input[type = "checkbox"]{
+    width: auto;
+    outline:none;
+   }
+   input[type = "radio"]{
+  width:auto;
+
+    
+    outline:none;
+   }
+  .special{
     outline:auto;
+   width:100%;
    }
    select{
     width: 80%;
     outline:auto;
+   }
+.submit{
+
+    background-color: steelblue;
+}
+.reset{
+    background-color: maroon;
+}
+input
+button{
+    border-radius: 5px;
+    color:white;
+    font-weight: bold;
+}
+   button:hover{
+    color:black;
    }
 
 

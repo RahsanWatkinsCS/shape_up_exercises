@@ -91,6 +91,7 @@
 				<p>
 					Asterisks (*) indicate required entries.
 				</p>
+                <form>
 				<fieldset id = "userInfo">
 					<legend>Tell us about yourself</legend>
 					<label for = "name">Full name</label>
@@ -100,8 +101,13 @@
 					<input type = "email" id = "email" name = "email" required>
 
 					<label for = "gender"> Gender</label>
-					<select id = "gender" name = "gender">
-						
+					<select id = "gender" name = "gender" required>
+						<option value " "> </option>
+					<option value = "Male">Male</option>
+					<option value = "Female">Female</option>
+					<option value = "Nonbinary">Nonbinary</option>
+					<option value = "n/a"> Prefer not to say</option>
+			
 					</select>
 
 					<label for = "height">Height</label>
@@ -123,12 +129,60 @@
 					</select>
 				</fieldset>
 
-				<fieldset id = "userLifestyle">
-					<legend>lifestyle and goals</legend>
-					<label for = "lifestyle">What currently matches your lifestyle</label>
+				<fieldset class = "selectBlocks" id = "userLifestyle">
+					
+                    <legend>lifestyle and goals</legend>
+					<div><label for = "lifestyle">What currently matches your lifestyle</label>
+                 </div>
+                    <input type = "radio" name = "activity" id ="activity1" value = "Active">
+                    <label for = "activity1"> Active</label>
+  
+                    <input type = "radio" name = "activity" id ="activity2" value ="Moderate" checked>
+                        <label for = "activity2">Moderate</label>
 
-				</fieldset>
-		</section>
+                    <input type = "radio" name = "activity" id = "activity3" value = "Sedentary">
+                    <label for = "activity3">Sedentary</label>
+                   
+                    <div>
+                    <label>What are your weight goals</label>
+                    </div>
+
+                    <input type = "radio" name = "goals" id = "goals1" value ="Gain">
+                    <label for = "goals1">Gain</label>
+
+                    <input type = "radio" name = "goals" id = "goals2" value = "lose" checked>
+                    <label for = "goals2">Lose</label>
+
+                    <input type = "radio" name = "goals" id = "goals3" value ="Maintain">
+                    <label for = "goals3">Maintain</label>
+
+              
+            </fieldset>
+
+            <fieldset class = "selectBlocks">
+                <legend>Food preferences and restrictions</legend>
+                <label>Do you have any restrictions? (select all that apply)</label>
+<div></div>
+                <input type = "checkbox" name = "diet" id = "diet1" value ="vegetarian">
+                <label for="diet1">Vegetarian</label>
+                <input type = "checkbox" name = "diet" id = "diet2" value ="glutenfree">
+                <label for="diet2">Gluten-Free</label>
+                <input type = "checkbox" name = "diet" id = "diet3" value ="kosher">
+                <label for="diet3">Kosher</label>
+                <input type = "checkbox" name = "diet" id = "diet4" value ="lowSalt">
+                <label for="diet4">Low-Salt</label>
+                <input type = "checkbox" name = "diet" id = "diet5" value ="Other">
+                <label for="diet5" for = "otherEntry">Other(if so, please explain)</label>
+                <textarea id = "otherEntry" class = "special"></textarea>
+            </fieldset>
+            <fieldset>
+                <div>
+                    	<button type = "submit" class = "submit">Submit</button>
+		                <button type = "reset" class = "reset">Reset</button>
+                </div>
+            </fieldset>
+</form>		
+            </section>
 			  
 
 	<aside>
