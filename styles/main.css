@@ -158,7 +158,7 @@ nav{
 
 
 body{
-  
+  display:grid;
      border-color:steelblue;
     font-family: Helvetica;
     width: 100%;
@@ -383,10 +383,14 @@ button{
 
 @media only screen and (min-width: 700px){
    main{
-    display:flex;
-    flex-direction:row;
+    grid-template-columns: 1fr 1fr;
+    
+   align-content:center;
+   
    }
-
+   section{
+  
+   }
    body{
    
 
@@ -421,6 +425,9 @@ button{
    
 
    
+}
+aside{
+    grid-column: 3/4; 
 }
   
 }
